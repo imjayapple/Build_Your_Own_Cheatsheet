@@ -7,17 +7,62 @@
 #container {
     background-color: #F4E8C1;
     position: absolute;
-    width: 100%;
+    width: 500px;
+    height: 400px;
 }
 
 #margin {
     background-color: #A8D0DB;
-    padding: 0 50px;
-    margin: 100px;
+    position: absolute;
+    width: 450px;
+    height: 350px;
+    margin: 5%;
 }
 
 #border {
     background-color: #414073;
-    padding: 50px;
-    margin: 50px 100px;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    margin: 10%;
+}
+
+#padding {
+    background-color: #1f1f4d;
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    margin: 15%;
+}
+
+#content {
+    background-color: #8e8eb3;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin: 20%;
+}
+
+.opening p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#content p {
+    color: white;
+    text-align: center;
+}
+
+#padding p {
+    color: white;
+    text-align: center;
+}
+
+#border p {
+    color: white;
+    text-align: center;
+}
+
+#margin p {
+    color: white;
+    text-align: center;
 }
